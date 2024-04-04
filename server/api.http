@@ -2,7 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Testing events",
+  "title": "Testing events 2",
   "details": null,
   "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/309fdc7b-a60a-48cc-bd9c-fd03554f7014/attendees
+Content-Type: application/json
+
+{
+  "name": "Rick Neves",
+  "email": "ricknvesbc2@hotmail.com"
 }
